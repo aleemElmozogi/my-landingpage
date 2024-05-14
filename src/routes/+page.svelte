@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Conversation from './../components/Conversation.svelte';
+	import FAQs from './../components/FAQs.svelte';
+	import Reviews from './../components/Reviews.svelte';
+	import Product from './../components/Product.svelte';
+	import Fottor from './../components/Fottor.svelte';
+  import Hero from "../components/Hero.svelte";
+</script>
+<main class = "flex flex-col">
+    <Hero/> 
+    <Product/>
+    <Reviews/>
+    <FAQs/>
+    <Conversation/>
+</main>
